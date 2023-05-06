@@ -25,7 +25,7 @@ export default function CTDetalhesScreen({ route }) {
                         style={styles.btn}
                         onPress={() => Linking.openURL(curso.link)}
                     >
-                        <Text style={styles.btnText}>Inscrições</Text>
+                        <Text style={styles.btnText}>Mais detalhes</Text>
                     </TouchableOpacity>
                 </View>
             </View>
