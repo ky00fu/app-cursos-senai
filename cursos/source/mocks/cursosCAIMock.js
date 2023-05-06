@@ -1,0 +1,40 @@
+const CursosCAI = [
+    {
+        area: 'Eletricidade',
+        nome: 'Eletricista de Manutenção Eletroeletrônica',
+        duracao: '1600 horas',
+        resumo: 'O curso de Aprendizagem Industrial Eletricista de Manutenção Eletroeletrônica tem por objetivo proporcionar qualificação profissional na instalação e manutenção de sistemas eletroeletrônicos em baixa tensão, de acordo com normas técnicas, de qualidade, de saúde e segurança no trabalho e de meio ambiente.',
+        unidade: 'Escola SENAI Jaguariúna',
+        endereco: 'Rua Anésia Venturini Zani, 62 - Centro - Jaguariúna, SP',
+        cep: '13911-014',
+        telefone: '(19) 3837-6300',
+        email: 'senaijaguariuna@sp.senai.br',
+        link: 'https://jaguariuna.sp.senai.br/curso/94691/513/eletricista-de-manutencao-eletroeletronica',
+    },
+    {
+        area: 'Metalmecânica',
+        nome: 'Mecânico de Bombas, Motores, Compressores e Equipamentos de Transmissão',
+        duracao: '800 horas',
+        resumo: 'O curso de Aprendizagem Industrial Mecânico de Bombas, Motores, Compressores e Equipamentos de Transmissão tem por objetivo proporcionar qualificação profissional para a realização da manutenção corretiva e preventiva em conjuntos mecânicos de máquinas e equipamentos, em conformidade às normas e procedimentos de saúde e segurança no trabalho, de meio ambiente e de qualidade.',
+        unidade: 'Escola SENAI Jaguariúna',
+        endereco: 'Rua Anésia Venturini Zani, 62 - Centro - Jaguariúna, SP',
+        cep: '13911-014',
+        telefone: '(19) 3837-6300',
+        email: 'senaijaguariuna@sp.senai.br',
+        link: 'https://jaguariuna.sp.senai.br/curso/82897/513/mecanico-de-bombas-motores-compressores-e-equipamentos-de-transmissao',
+    },
+    {
+        area: 'Metalmecânica',
+        nome: 'Mecânico de Usinagem',
+        duracao: '1600 horas',
+        resumo: 'O Curso de Aprendizagem Industrial Mecânico de Usinagem tem por objetivo proporcionar qualificação profissional na execução de atividades relacionadas à usinagem de peças em materiais ferrosos e não ferrosos, seguindo normas e procedimentos técnicos, de manutenção, segurança, meio ambiente e qualidade.',
+        unidade: 'Escola SENAI Jaguariúna',
+        endereco: 'Rua Anésia Venturini Zani, 62 - Centro - Jaguariúna, SP',
+        cep: '13911-014',
+        telefone: '(19) 3837-6300',
+        email: 'senaijaguariuna@sp.senai.br',
+        link: 'https://jaguariuna.sp.senai.br/curso/76298/513/mecanico-de-usinagem',
+    },
+]
+
+export default CursosCAI
