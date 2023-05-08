@@ -28,5 +28,6 @@ export default function FICScreen({ navigation }) {
 const styles = StyleSheet.create({
     container: {
         backgroundColor: '#FF0000',
+        height: '100%'
     }
 })
