@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, Text, StyleSheet, TouchableOpacity, Linking } from 'react-native'
 
-export default function FICDetalhesScreen({ route }) {
+export default function CAIDetalhesScreen({ route }) {
     const curso = route.params.dados
 
     return (
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
     item: {
         flex: 1,
         flexDirection: 'row',
-        backgroundColor: '#fff'
+        margin: 10,        
     },
     container: {
         flex: 1,
@@ -58,18 +58,17 @@ const styles = StyleSheet.create({
     },
     btnContainer: {
         justifyContent: 'center',
-        alignItems: 'center',
-        backgroundColor: '#fff'
+        alignItems: 'center'
     },
     btn: {
         alignItems: 'center',
-        backgroundColor: '#E5E4E2',
+        backgroundColor: '#E0E2DB',
         padding: 10,
         width: 150,
         borderRadius: 50,
         marginTop: 30
     },
     btnText: {
-        fontFamily: 'Segoe UI',
+        fontFamily: 'Segoe UI'
     }
 })

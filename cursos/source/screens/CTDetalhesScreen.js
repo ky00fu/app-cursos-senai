@@ -34,13 +34,13 @@ export default function CTDetalhesScreen({ route }) {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-    },
     item: {
         flex: 1,
         flexDirection: 'row',
-        margin: 10,
+        backgroundColor: '#fff'
+    },
+    container: {
+        flex: 1,
     },
     curso: {
         fontSize: 18,
@@ -58,17 +58,18 @@ const styles = StyleSheet.create({
     },
     btnContainer: {
         justifyContent: 'center',
-        alignItems: 'center'
+        alignItems: 'center',
+        backgroundColor: '#fff'
     },
     btn: {
         alignItems: 'center',
-        backgroundColor: '#E0E2DB',
+        backgroundColor: '#BEBFC5',
         padding: 10,
         width: 150,
         borderRadius: 50,
         marginTop: 30
     },
     btnText: {
-        fontFamily: 'Segoe UI'
+        fontFamily: 'Segoe UI',
     }
 })

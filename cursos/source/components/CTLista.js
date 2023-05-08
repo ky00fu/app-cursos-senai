@@ -15,7 +15,7 @@ export default function CTLista({ item }) {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#E5E4E2',
+        backgroundColor: '#fff',
         borderRadius: 10,
         padding: 10
     },
@@ -25,6 +25,7 @@ const styles = StyleSheet.create({
         margin: 10,
     },
     curso: {
+        color: '#E30613',
         fontSize: 18,
         fontWeight: '700',
         margin: 8,

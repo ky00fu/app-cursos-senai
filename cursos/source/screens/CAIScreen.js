@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, FlatList, TouchableOpacity } from 'react-native'
+import { View, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 
 import CursosCAI from '../mocks/cursosCAIMock'
 import CAILista from '../components/CAILista'
@@ -10,7 +10,7 @@ export default function CAIScreen({ navigation }) {
     }
 
     return (
-        <View>
+        <View style={styles.container}>
             <FlatList
                 data={CursosCAI}
 
@@ -24,3 +24,9 @@ export default function CAIScreen({ navigation }) {
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        backgroundColor: '#FF0000',
+    }
+})

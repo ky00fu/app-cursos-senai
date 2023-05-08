@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, FlatList, TouchableOpacity } from 'react-native'
+import { View, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 
 import CursosCT from '../mocks/cursosCTMock'
 import CTLista from '../components/CTLista'
@@ -10,7 +10,7 @@ export default function CTScreen({ navigation }) {
     }
 
     return (
-        <View>
+        <View style={styles.container}>
             <FlatList
                 data={CursosCT}
 
@@ -24,3 +24,9 @@ export default function CTScreen({ navigation }) {
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        backgroundColor: '#FF0000',
+    }
+})

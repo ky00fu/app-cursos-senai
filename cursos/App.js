@@ -1,7 +1,7 @@
 import { NavigationContainer } from '@react-navigation/native'
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-import CategoriaScreen from './source/screens/CategoriaScreen'
+import CategoriaScreen from './source/screens/categoriaScreen'
 import FICScreen from './source/screens/FICScreen'
 import CAIScreen from './source/screens/CAIScreen'
 import CTScreen from './source/screens/CTScreen'

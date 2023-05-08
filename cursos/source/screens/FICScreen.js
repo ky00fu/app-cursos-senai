@@ -1,5 +1,5 @@
 import React from 'react'
-import { View, FlatList, TouchableOpacity } from 'react-native'
+import { View, FlatList, TouchableOpacity, StyleSheet } from 'react-native'
 
 import CursosFIC from '../mocks/cursosFICMock'
 import FICLista from '../components/FICLista'
@@ -10,7 +10,7 @@ export default function FICScreen({ navigation }) {
     }
 
     return (
-        <View>
+        <View style={styles.container}>
             <FlatList
                 data={CursosFIC}
 
@@ -24,3 +24,9 @@ export default function FICScreen({ navigation }) {
         </View>
     )
 }
+
+const styles = StyleSheet.create({
+    container: {
+        backgroundColor: '#FF0000',
+    }
+})

@@ -1,13 +1,11 @@
 import React from 'react'
-import { View, Text, StyleSheet, TouchableOpacity, Image } from 'react-native'
+import { View, Text, StyleSheet, TouchableOpacity } from 'react-native'
+
+import logo from '../../assets/logo/senai.png'
 
 export default function CategoriaScreen({ navigation }) {
     return (
         <View style={styles.container}>
-            <Image
-                source={require('../../assets/logo/senai.png')}
-                style={styles.img}
-            />
             <TouchableOpacity
                 style={styles.btn}
                 onPress={() => navigation.navigate('Cursos FIC', { name: 'Cursos FIC'})}
@@ -37,7 +35,6 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: '#FF0000',
     },
     img: {
         alignItems: 'center',
@@ -45,7 +42,7 @@ const styles = StyleSheet.create({
         height: 100,
     },
     btn: {
-        backgroundColor: '#fff',
+        backgroundColor: '#E30613',
         justifyContent: 'center',
         alignItems: 'center',
         padding: 20,
@@ -55,13 +52,8 @@ const styles = StyleSheet.create({
     },
     btnText: {
         textAlign: 'center',
-        color: '#E30613',
+        color: '#fff',
         fontFamily: 'Segoe UI',
         fontWeight: '600'
     },
-    img: {
-        width: '80%',
-        height: '10%',
-        margin: 90
-    }
 })

@@ -13,18 +13,19 @@ export default function CAILista({ item }) {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: '#E5E4E2',
-        borderRadius: 10,
-        padding: 10
-    },
     item: {
         flex: 1,
         flexDirection: 'row',
         margin: 10,
     },
+    container: {
+        flex: 1,
+        backgroundColor: '#fff',
+        borderRadius: 10,
+        padding: 10
+    },    
     curso: {
+        color: '#E30613',
         fontSize: 18,
         fontWeight: '700',
         margin: 8,
